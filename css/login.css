@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #ececec;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login__container {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.login {
+  height: 100%;
+}
+
+.login__box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  align-items: center;
+}
+
+.login__box img {
+  height: 200px;
+  width: 250px;
+  padding-top: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.login__box form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.login__box input {
+  margin: 0.2rem;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.login__box label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(255, 255, 255);
+}
+
+.login__box button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(22, 49, 112);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+.login__box button:hover {
+  background-color: rgb(11, 34, 86);
+}
+
+.register {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.bad {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(114, 14, 14);
+  color: white;
+  border-radius: 20px;
+  font-size: 9px;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  font-weight: 400;
+  margin: 1rem;
+  animation: fade_up 0.5s ease-out;
+}
+
+.bad h2{
+  background-color: transparent !important;
+}
+
+@keyframes fade_up {
+  0% {
+    top: -1000px;
+  }
+  90% {
+    top: 0;
+  }
+}
+
+.ok-div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21, 161, 77);
+  color: white;
+  border-radius: 20px;
+  font-size: 9px;
+  text-align: center;
+  width: 300px;
+  height: 70px;
+  font-weight: 400;
+  margin: 1rem;
+  animation: fade_up 0.5s ease-out;
+}
+
+.ok-div h1 {
+  background-color: transparent !important;
+}

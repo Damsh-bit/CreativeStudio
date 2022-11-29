@@ -1,0 +1,136 @@
+* {
+  background-color: rgb(242, 242, 242);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  padding-right: 2rem;
+}
+
+nav h1 {
+  margin-right: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul li {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s all;
+}
+
+.navbar__section {
+  width: 100%;
+  background-color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  width: 70%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+nav li:hover {
+  color: rgb(22, 49, 112);
+  transform: translateY(-5px);
+}
+
+nav img {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.perfil__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 90vh;
+}
+
+.perfil__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.perfil__card {
+  width: 390px;
+  height: 254px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  padding: 3rem;
+}
+
+.perfil__card form{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.perfil__card form input{
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer
+  ;
+}
+
+
+
+.perfil__card span {
+  margin-bottom: 0;
+  background-color: transparent;
+  color: #bebebe;
+}
+
+.perfil__card h1 {
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.perfil__card a {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.buttons {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons a {
+  width: 200px;
+  height: auto;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(25, 54, 133);
+}
